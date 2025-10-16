@@ -24,6 +24,9 @@ class TestTeam_code7(unittest.TestCase):
     def test_ip_address(self):
         """Test IP_ADDRESS functionality"""
 
+        corretIP = "192.158.1.38"
+        wrongIP = "192.158.1.37"
+
 
 if __name__ == '__main__':
     unittest.main()
